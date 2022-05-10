@@ -1,0 +1,57 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background: linear-gradient(to left, #7808f0, #06bdf5);
+}
+
+.btnContainer {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+footer {
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btnStyle {
+	border: none;
+	border-radius: 30px;
+	width: 220px;
+	height: 55px;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 3px;
+}
+
+.btnStyle:hover {
+	cursor: pointer;
+	background-color: #14c2f7;
+	transition: 0.2s;
+	transform: scale(1.02);
+}
+
+p {
+	font-family: sans-serif;
+}
+.info {
+	outline: black;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.circular--square {
+	border-radius: 50%;
+}
+.hr {
+	height: 6px;
+}
