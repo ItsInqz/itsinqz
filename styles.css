@@ -38,8 +38,8 @@ footer {
 .btnStyle:hover {
 	cursor: pointer;
 	background-color: #14c2f7;
-	transition: 0.2s;
-	transform: scale(1.02);
+	transition: 0.29s;
+	transform: scale(1.03);
 }
 
 p {
